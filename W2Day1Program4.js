@@ -11,6 +11,6 @@ function program4() {
             finalString = finalString.concat(" ");
         }
     }
-    document.getElementById("program4Output").innerHTML = 
-    "Highest Score is : " + finalString;
+    document.getElementById("program4Output").innerHTML =
+        "Highest Score is : " + finalString;
 }

@@ -7,7 +7,7 @@ function program3() {
     var max = 0;
     var min = arr[0];
     for (let i = 0; i < len; i++) {
-        if((arr[i] - min) > max) {
+        if ((arr[i] - min) > max) {
             max = arr[i] - min;
         }
         //console.log("min = " + min + ", arr[i] = " + arr[i] + ", max = " + max);
@@ -16,6 +16,6 @@ function program3() {
             min = arr[i];
         }
     }
-    document.getElementById("program3Output").innerHTML = 
-    "Maximum Profit possible is : " + max;
+    document.getElementById("program3Output").innerHTML =
+        "Maximum Profit possible is : " + max;
 }

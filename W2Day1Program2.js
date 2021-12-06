@@ -12,10 +12,10 @@ function program2() {
         if (sum < 0) {
             sum = 0;
         }
-        if ( sum > maxScore) {
+        if (sum > maxScore) {
             maxScore = sum;
         }
     }
-    document.getElementById("program2Output").innerHTML = 
-    "Highest Score is : " + maxScore;
+    document.getElementById("program2Output").innerHTML =
+        "Highest Score is : " + maxScore;
 }
