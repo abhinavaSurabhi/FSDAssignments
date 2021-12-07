@@ -1,4 +1,4 @@
-function program2() {
+function program2(elem) {
     var len = prompt("Please enter the length of the array", "");
     var arr = [];
     for (let i = 0; i < len; i++) {
@@ -16,6 +16,11 @@ function program2() {
             maxScore = sum;
         }
     }
-    document.getElementById("program2Output").innerHTML =
-        "Highest Score is : " + maxScore;
+    if (elem.id == "program2") {
+        document.getElementById("program2Output").innerHTML =
+            "Highest Score is : " + maxScore;
+    } else {
+        document.getElementById("programGameOutput").innerHTML =
+            "Highest Score is : " + maxScore;
+    }
 }
